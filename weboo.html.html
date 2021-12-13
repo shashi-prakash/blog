@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weboo</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- <nav id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </nav> -->
+        <div id="logo">
+            <a href="#">Weboo</a>
+        </div>
+        <div id="social-links">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                </li>
+
+                <li><a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a></li>
+                <li><a href="https://www.google.com" target="_blank" class="fa fa-google"></a>
+
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <div id="main">
+        <aside class="sideText">
+
+            <ul style="max-height: 28rem;overflow-y:auto;" class="ulText">
+                <li><a onclick="basichtml(1)" id="hovr">Introduction</a></li>
+                <li><a onclick="basichtml(2)" id="hovr">HTML vs HTML5</a></li>
+                <li><a onclick="basichtml(3)" id="hovr">Tag vs elements</a></li>
+                <li><a onclick="basichtml(4)" id="hovr">List In HTML</a></li>
+                <li><a onclick="basichtml(5)" id="hovr">SVG</a></li>
+                <!-- <li><a href="" id="hovr">Some Link</a></li>
+                    <li><a href="" id="hovr">Some Link</a></li>
+                    <li><a href="" id="hovr">Some Link</a></li>
+                    <li><a href="" id="hovr">Some Link</a></li> -->
+            </ul>
+            <!-- <img src="images/home1.jpg" alt=""> -->
+
+        </aside>
+        <article class="">
+            <span id="basicHtml">
+                <h2>HTML Stands for</h2>
+                <p>
+                <ul>
+                    <li>Hypertext Markup Language .It is the most basic building block of the web.</li>
+                    <li>It defines the meaning and structure of web content.
+                    </li>
+                    <li><strong>Hypertext</strong> Hypertext defines the link between the web pages that an html page
+                        may
+                        contain.</li>
+                    <li><strong>Markup language </strong>is used to define the text document within tag
+                        which defines the structure of web pages.</li>
+                    <li>HTML is made by the World Wide Web Consortium (W3C).</li>
+                    <li> CSS is used to change the way HTML looks.</li>
+                    <li>JavaScript tells websites how to behave. It can also change HTML and CSS.</li>
+                    <!-- <li>There are many versions of HTML. As of September 2018, the current standard of HTML is called HTML 5
+                    and is specifically at version 5.2.</li> -->
+                </ul>
+                </p>
+            </span>
+
+            <!-- ############ read more modal -->
+
+            <div class="alert" id="alert" style="display: none;">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                <strong id="modalMore">Read More.</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla iusto tenetur harum vitae soluta
+                    repudiandae recusandae at doloribus eos optio?</p>
+            </div>
+            <div id="subItem">
+                <h2>Basic structure</h2>
+                <div class="service-container">
+                    <div class="service-box">
+                        <div class="service-img">
+
+                            <div class="container mt-5">
+                                <div class="row">
+
+                                    <div class="col-sm-4 htmlformat">
+                                        &lt;
+                                        !DOCTYPE html &gt;<br>
+                                        &lt; html lang="en" &gt;<br>
+
+                                        &lt;
+
+                                        head &gt;<br>
+                                        &lt;
+                                        meta charset="UTF-8"&gt;<br>
+                                        &lt;
+                                        meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br>
+                                        &lt;
+                                        meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                                        &lt; title &gt; <i>Title of your web page</i><br>
+                                        &lt; /title &gt; <br>
+
+                                        &lt;/head &gt;<br>
+
+
+                                        &lt; body &gt;<br>
+                                        &lt; /body &gt;<br>
+                                        &lt; /html &gt;<br>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <img src="images/banr1.jpg" alt=""> -->
+
+                        </div>
+                        <!-- <div class="service-title">
+                        <h3>Web Designing</h3>
+                    </div>
+                    <div class="service-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, suscipit!</p>
+                    </div> -->
+
+                        <!-- <div class="call-to-action">
+                            <a onclick=" return openModal(1);">Read More</a>
+                        </div> -->
+                    </div>
+
+                    <div class=" service-box">
+                        <span>Feature of HTML</span>
+                        <ul style="padding-left: 17px;" class="ulformat">
+                            <li>It is a very easy and simple language. </li>
+                            <li>It is platform-independent. </li>
+                            <li>We can easily add images, audio,video,animation inside our web pages. </li>
+                            <li>It is a markup language. </li>
+                            <li>Easy to pass link from one page to another page. </li>
+                            <li> Hypertext comes from the Hyperlink that means connections between several pages, </li>
+                        </ul>
+
+
+
+                        <!-- <div class="call-to-action">
+                        <a onclick=" return openModal(2);">Read More</a>
+                    </div> -->
+                    </div>
+                    <div class="service-box">
+                        <div class="services-img">
+                            <img src="images/html-img.png" alt="">
+
+                        </div>
+                        <div class="service-title">
+                            <span>Disadvantages of HTML</span>
+                        </div>
+                        <div class="service-desc">
+
+                            <ul style="padding-left: 18px;" class="ulformat">
+                                <li>There is Lack of security in HTML.</li>
+                                <li>HTML become complex when you try to create a huge website.
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="call-to-action">
+                        <a href="#">Read More</a>
+                    </div> -->
+                    </div>
+
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+    <div class="toScroll">
+        <a href="#"><img src="images/top-arrow.png" alt="" srcset=""></a>
+
+    </div>
+    <footer>
+        Privacy and policy by @Weboo
+    </footer>
+    <script>
+        function openModal(id) {
+
+            document.getElementById('alert').style.display = "block";
+        }
+    </script>
+    <script>
+        // events with sidebar
+        function basichtml(id) {
+            if (id == 1) {
+
+
+                document.getElementById('subItem').style.display = 'block';
+                document.getElementById('basicHtml').innerHTML = `
+              <h2>HTML Stands for</h2>
+                <p>
+                <ul>
+                    <li>Hypertext Markup Language .It is the most basic building block of the web.</li>
+                    <li>It defines the meaning and structure of web content.
+                    </li>
+                    <li><strong>Hypertext</strong> Hypertext defines the link between the web pages that an html page
+                        may
+                        contain.</li>
+                    <li><strong>Markup language </strong>is used to define the text document within tag
+                        which defines the structure of web pages.</li>
+                    <li>HTML is made by the World Wide Web Consortium (W3C).</li>
+                    <li> CSS is used to change the way HTML looks.</li>
+                    <li>JavaScript tells websites how to behave. It can also change HTML and CSS.</li>
+                     
+                </ul>
+                
+                </p>
+              
+              `
+            }
+            else if (id == 2) {
+                document.getElementById('subItem').style.display = 'none';
+                document.getElementById('basicHtml').innerHTML = `
+              <h2>Difference between HTML and HTM5</h2>
+              <div style="overflow-x:auto;display:flex">
+                    <table>
+                        <tr>
+                        <th>HTML</th>
+                        <th>HTML5</th>
+                        
+                        
+                        </tr>
+                        <tr>
+                        <td>Without flash player support It didn’t support audio and video.</td>
+                        <td>By using of audio and video tags, It supports audio and video controls.</td>
+                       
+                        <tr>
+                            <td>Does not allow JavaScript to run in browser.</td>
+                        <td>Allows JavaScript to run in background.</td>
+                        </tr>
+                        <td>It does not allow drag and drop effects.</td>
+                        <td>It allows drag and drop effects.</td>
+                    
+                        
+                        
+                        </tr>
+                        </tr>
+                        <td>It works with all old browsers.</td>
+                        <td>It works all new browser like Firefox, Mozilla, Chrome, Safari, etc</td>
+                    
+                        
+                        
+                        </tr>
+                        <tr>
+                        <td> HTML are less mobile-friendly.</td>
+                        <td>It  is more mobile-friendly.</td>
+                    
+                        
+                        
+                        </tr>
+                        <tr>
+                        <td>Elements like nav, header were not present.</td>
+                        <td>While elements like nav, header, footer etc present.</td>
+                    
+                        
+                        
+                        </tr>
+                        
+                    </table>
+                   
+                    
+                    </div>
+              `
+
+            }
+            else if (id == 3) {
+                document.getElementById('subItem').style.display = 'none';
+                document.getElementById('basicHtml').innerHTML = `
+              <h2>Difference between Tag, Element and Attributes</h2>
+              <div style="overflow-x:auto;">
+                    <table>
+                        <tr>
+                        <th>Tag</th>
+                        <th>Elements</th>
+                        <th>Attributes</th>
+                        <th>Properties</th>
+                       
+                        
+                        
+                        </tr>
+                        <tr>
+                        <td>HTML tags are used to hold the HTML element.</td>
+                        <td>HTML element holds the content.</td>
+                        <td>Attributes are refering to additional information of an object.</td>
+                        <td>Properties are describing the characteristics of an object.</td>
+                        </tr>
+                        <tr>
+                            <td>They begin with < symbol and end with > symbol. Whatever is written inside < and > are called tags..</td>
+
+                        <td> They usually consist of a start tag, content, and an end tag.</td>
+                        <td>Example</td>
+                            <td>Example</td>
+                        </tr>
+
+                       
+                        <tr>
+                            <td>Example</td>
+                            <td>Example</td>
+                            <td>&lt;img src="./image/a.jpg"&gt;This is the content.&lt;/b&gt;</td>
+                        <td>&lt;b&gt;This is the content.&lt;/b&gt;</td>
+                        
+                           
+                         
+                        </tr>
+                        <tr>
+                        <td> &lt;b&gt;  &lt;/b&gt;</td>
+                        <td>&lt;b&gt;This is the content.&lt;/b&gt;</td>
+                       
+ 
+                        </tr>
+                        
+   
+                    </table>
+                    <div>`
+            }
+            else if (id == 4) {
+                document.getElementById('subItem').style.display = 'none';
+                document.getElementById('basicHtml').innerHTML = `
+              <h2>List in html</h2>
+              <p>HTML lists are used to group a set of related items in lists. It is defined with an &lt;li&gt; tag.</p>
+              <p>Some commonly used HTML lists:</p>
+              <p>
+                <ul>
+                    <li>Unordered List i.e., &lt;ul&gt;
+                    </li>
+                    <li>Ordered List i.e., &lt;ol&gt; .</li>
+                    <li>Description List i.e., &lt;dl&gt</li>
+                    <li>Menu List i.e., &lt;menu&gt</li>
+                    <li> Directory i.e., List &lt;dir&gt</li>
+                     
+                </ul>
+                
+                </p>
+            <div id="subItem">
+                <h2>Examples Of List</h2>
+                <div class="service-container">
+                    <div class="service-box">
+                        <div class="service-img">
+
+                            <div class="container mt-5">
+                                <div class="row">
+
+                                    <div class="col-sm-4 htmlformat">
+                                        <h2>An Unordered List</h2>
+                                       <div class="listDefination" >
+                                         <small>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the  &lt;li&gt; tag. The list items will be marked with bullets by default.</small>
+                                         </div>
+                                         <h4>Example</h4>
+
+                                        &lt;ul&gt;<br>
+                                        &lt;li&gt;  Coffee &lt;/li&gt;<br>
+                                        &lt;li&gt; Tea &lt;/li&gt;<br>
+                                        &lt;li&gt; Milk &lt;/li&gt;<br>
+                                        &lt;/ul&gt;<br> 
+                                       
+
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+
+                        </div>
+                     
+
+                        
+                    </div>
+
+                    <div class=" service-box">
+                    <div class="service-img">
+
+                        <div class="container mt-5">
+                                <div class="row">
+
+                                    <div class="col-sm-4 htmlformat">
+                                        <h2>An Ordered List</h2>
+                                       <div class="listDefination" >
+                                         <small>An unordered list starts with the &lt;ol&gt; tag. Each list item starts with the  &lt;li&gt; tag. The list items will be marked with bullets by default.</small>
+                                         </div>
+                                         <h4>Example</h4>
+
+                                        &lt;ol&gt;<br>
+                                        &lt;li&gt;  Coffee &lt;/li&gt;<br>
+                                        &lt;li&gt; Tea &lt;/li&gt;<br>
+                                        &lt;li&gt; Milk &lt;/li&gt;<br>
+                                        &lt;/ol&gt;<br> 
+                                       
+
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+
+                        </div>
+                         
+                         
+                    </div>
+                    <div class="service-box">
+                        
+                        <div class="service-img">
+
+                        <div class="container mt-5">
+                                <div class="row">
+
+                        <div class="col-sm-4 htmlformat">
+                            <h2>Description Lists</h2>
+                        <div class="listDefination" >
+                            <small>A description list is a list of terms, with a description of each term.
+
+                    The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag describes each term.</small>
+                 </div>
+                 <h4>Example</h4>
+
+                    &lt;dl&gt;<br>
+                    &lt;dt&gt;  Coffee &lt;/dt&gt;<br>
+                    &lt;dd&gt; - This is the coffee - &lt;/dd&gt;<br>
+                    &lt;dt&gt; Milk &lt;/dt&gt;<br>
+                    &lt;dd&gt; - This is the coffee - &lt;/dd&gt;<br>
+                    &lt;/dl&gt;<br> 
+                </div>
+               
+
+            </div>
+            
+        </div>
+    </div>
+
+ 
+
+</div>
+ 
+ 
+</div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="subItem">
+                <div class="service-container">
+                    <div class="service-box">
+                        <div class="service-img">
+
+                            <div class="container mt-5">
+                                <div class="row">
+
+                                    <div class="col-sm-4 htmlformat">
+                                        <h2>An Unordered List</h2>
+                                       <div class="listDefination" >
+                                         <small>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the  &lt;li&gt; tag. The list items will be marked with bullets by default.</small>
+                                         </div>
+                                         <h4>Example</h4>
+
+                                        &lt;ul&gt;<br>
+                                        &lt;li&gt;  Coffee &lt;/li&gt;<br>
+                                        &lt;li&gt; Tea &lt;/li&gt;<br>
+                                        &lt;li&gt; Milk &lt;/li&gt;<br>
+                                        &lt;/ul&gt;<br> 
+                                       
+
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+
+                        </div>
+                     
+
+                        
+                    </div>
+
+                    <div class=" service-box">
+                    <div class="service-img">
+
+                        <div class="container mt-5">
+                                <div class="row">
+
+                                    <div class="col-sm-4 htmlformat">
+                                        <h2>An Ordered List</h2>
+                                       <div class="listDefination" >
+                                         <small>An unordered list starts with the &lt;ol&gt; tag. Each list item starts with the  &lt;li&gt; tag. The list items will be marked with bullets by default.</small>
+                                         </div>
+                                         <h4>Example</h4>
+
+                                        &lt;ol&gt;<br>
+                                        &lt;li&gt;  Coffee &lt;/li&gt;<br>
+                                        &lt;li&gt; Tea &lt;/li&gt;<br>
+                                        &lt;li&gt; Milk &lt;/li&gt;<br>
+                                        &lt;/ol&gt;<br> 
+                                       
+
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+
+                        </div>
+                         
+                         
+                    </div>
+                    <div class="service-box">
+                        
+                        <div class="service-img">
+
+                        <div class="container mt-5">
+                                <div class="row">
+
+                        <div class="col-sm-4 htmlformat">
+                            <h2>Description Lists</h2>
+                        <div class="listDefination" >
+                            <small>A description list is a list of terms, with a description of each term.
+
+                       The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag describes each term.</small>
+                     </div>
+                    <h4>Example</h4>
+
+                    &lt;dl&gt;<br>
+                    &lt;dt&gt;  Coffee &lt;/dt&gt;<br>
+                    &lt;dd&gt; - This is the coffee - &lt;/dd&gt;<br>
+                    &lt;dt&gt; Milk &lt;/dt&gt;<br>
+                    &lt;dd&gt; - This is the coffee - &lt;/dd&gt;<br>
+                    &lt;/dl&gt;<br> 
+                </div>
+               
+
+            </div>
+              `
+
+            }
+            else if (id == 5) {
+                document.getElementById('subItem').style.display = 'none';
+                document.getElementById('basicHtml').innerHTML = `
+              <h2>SVG In HTML</h2>
+              <p>
+                <ul>
+                    <li>SVG stands for Scalable Vector Graphics.</li>
+              <li>SVG defines vector-based graphics in XML format.</li>
+                     
+                     
+                </ul>
+                
+                </p>
+              <h2>SVG Advantages</h2>
+              <strong>Advantages of using SVG over other image formats (like JPEG and GIF) are:</strong>
+              <p>
+                <ul>
+                    <li>SVG images can be created and edited with any text editor.</li>
+              <li>SVG defines vector-based graphics in XML format.</li>
+                <li>SVG images can be searched, indexed, scripted, and compressed.</li>     
+                    <li>SVG images can be printed with high quality at any resolution</li> 
+                    <li>SVG images are zoomable</li> 
+                    <li>SVG graphics do NOT lose any quality if they are zoomed or resized</li> 
+                    <li>SVG files are pure XML</li> 
+                </ul>
+                
+                </p>
+                <div id="subItem">
+               
+                <div class="service-container">
+                    <div class="service-box">
+                        <div class="service-img">
+
+                            <div class="container mt-5">
+                                <div class="row">
+
+                                    <div class="col-sm-4 htmlformat">
+                                        <h2>Add SVG in HTML</h2>
+                                        
+                                         <h4>Example</h4>
+                                         &lt;body&gt;<br>
+
+                                        &lt;circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"&gt;<br>
+                                        
+                                        &lt;/circle&gt;<br> 
+                                        &lt;body/&gt;
+                                       
+
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+
+                        </div>
+                     
+
+                        
+                    </div>
+
+                    <div class=" service-box">
+ 
+                    <div class="service-img">
+
+                        <div class="container mt-5">
+                                <div class="row">
+
+                                    <div class="col-sm-4 htmlformat">
+                                        <h2>From the examples</h2>
+                                        <ul  style="max-height:15rem;overflow-y:auto">
+                                       <div class="listDefination" >
+                                        <li>
+                                         <small>The CX is used to set the position of a circle or ellipse horizontally in SVG (that is where you want your circle or ellipse to be placed on the page from left to right).</small>
+                                        </li>
+                                         </div>
+                                       <div class="listDefination">
+                                        <li>
+                                         <small>Likewise the CY is used to set the position of a circle or ellipse vertically in SVG (that is where you want your circle or ellipse to be placed on the page from top to bottom of the page).</small>
+                                         
+                                         </li></div>
+                                       <div class="listDefination">
+                                        <li>
+                                         <small>The "r" however determines the radius of a circle (that is how big or Small you want your drawn circle to be)</small>
+                                         
+                                         </li></div>
+                                         </ul>
+                                          
+                                       
+
+                                    </div>
+                                </div>
+                            </div>
+
+                         
+
+                        </div>
+                         
+                         
+                    </div>
+                    <div class="service-box"">
+                        
+                        <div class="service-img">
+
+                        <div class="container mt-5">
+                                <div class="row">
+
+                        <div class="col-sm-4 htmlformat">
+                            <h2>Various SVG Shapes</h2>
+                        <div class="listDefination" >
+                            <small>SVG has some predefined shape elements that can be used by developers:</small>
+                 </div>
+                 <small>
+                        <ul style="line-height:13px">
+                            <li>Rectangle &lt;rect&gt;</li>
+                            <li>Circle &lt;circle&gt;</li>
+                            <li>Ellipse &lt;ellipse&gt;</li>
+                            <li>Line &lt;line&gt;</li>
+                            <li>Polyline &lt;polyline&gt;</li>
+                            <li>Polygon &lt;polygon&gt;</li>
+                            <li>Path &lt;path&gt;</li>
+                            </ul>
+                            </small>
+                </div>
+               
+
+            </div>
+              `
+
+            }
+        }
+    </script>
+    <script>
+        const scrollUp = document.querySelector(".toScroll");
+
+        scrollUp.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+            });
+        });
+    </script>
+</body>
+
+</html>
